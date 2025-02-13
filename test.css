@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Poppins, sans-serif;
+}
+
+nav {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Poppins, sans-serif;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.right li {
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 200px;
+    height: 64px;
+}
+
+.nav_svg {
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Poppins, sans-serif;
+    gap: 40px;
+    margin: 90px;
+}
+
+.first span{
+    font-size: 45px;
+}
+.first >span >img{
+    width: 110px;
+    margin: 0 25px;
+}
+.first p{
+    font-size: 23px;
+    text-align: center;
+}
+ .first button{
+    padding: 18px;
+    background-color: #00b6d1;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+ }
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+.downlaod{
+    display: flex;
+    align-items: center;
+}
+.btn-green{
+    padding: 10px 18px 10px 18px;
+    background-color: #00c774;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.item{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.item-lang{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 7vh;
+}
+#ph1{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+#ph2{
+    font-size: 9px;
+    margin-bottom: 1vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.d-big{
+    font-size: 25px;
+    display: flex ;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.d-small{
+    font-size: 15px;
+}
+.third{
+    background-color: rgb(30, 30, 30);
+    min-height: 70vh;
+}
+.grid-th{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
